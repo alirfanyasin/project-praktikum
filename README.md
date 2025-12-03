@@ -3,6 +3,18 @@
 git clone ....
 ```
 
+dan copy file .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+
+
+Generate Key
+```bash
+php artisan key:generate
+```
+
+
 lalu buka project di vscode, dan jalankan composer install
 ```bash
 composer install
@@ -13,10 +25,6 @@ lalu jalankan perintah di bawah
 npm install
 ```
 
-dan copy file .env.example menjadi .env
-```bash
-cp .env.example .env
-```
 
 Buka file `.env` dan ubah isinya menjadi seperti ini untuk contoh
 ```php
@@ -33,10 +41,6 @@ jalankan `Laragon` atau `XAMPP` dan jalankan
 php artisan migrate
 ```
 
-Generate Key
-```bash
-php artisan key:generate
-```
 
 running project
 ```bash
